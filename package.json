@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
+    "server": "webpack-dev-server",
     "wp": "./node_modules/.bin/webpack",
     "watch": "./node_modules/.bin/webpack -w",
     "test": "jest"
@@ -41,12 +42,15 @@
     "redux": "^3.7.2",
     "save": "^2.3.2",
     "style-loader": "^0.20.1",
-    "webpack": "^3.10.0",
+    "webpack": "^4.1.1",
     "webpack-css-loaders": "^1.0.0"
   },
   "devDependencies": {
     "babel-preset-react-native": "^4.0.0",
     "jest": "^22.1.4",
-    "react-test-renderer": "^16.2.0"
+    "react-test-renderer": "^16.2.0",
+    "webpack-cli": "^2.0.12",
+    "webpack-dev-server": "^3.1.1",
+    "webpack-serve": "^0.2.0"
   }
 }

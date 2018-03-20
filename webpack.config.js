@@ -1,8 +1,9 @@
 var webpack = require('webpack');
 var path = require('path');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
+//var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var BUILD_DIR = path.resolve(__dirname, 'out/public');
+console.log("aFLopez: " + BUILD_DIR);
 var APP_DIR = path.resolve(__dirname, './');
 
 var config = {
@@ -12,7 +13,7 @@ var config = {
     filename: 'bundle.js'
   },
   plugins: [
-    new HtmlWebpackPlugin()
+  //  new HtmlWebpackPlugin()
   ],
   module: {
     rules: [
