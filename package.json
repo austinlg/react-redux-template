@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node ./bin/www",
-    "server": "webpack-dev-server",
+    "server": "webpack-serve",
     "wp": "./node_modules/.bin/webpack",
     "watch": "./node_modules/.bin/webpack -w",
     "test": "jest"
